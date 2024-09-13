@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #F2F4F7;
+  }
+  
+  body.dark {
+    background-color: #0c111d;
+  }
+  
+  .el-input {
+    font-family: 'IBM Plex Sans Thai' !important;
+  }
+  
+  @media print {
+    .print {
+      print-color-adjust: exact; 
+    }
+  
+    @page {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
